@@ -1,4 +1,4 @@
-# Offline Content & Streaming Demo
+# Offline Content Demo
 
 ## Introduction
 
