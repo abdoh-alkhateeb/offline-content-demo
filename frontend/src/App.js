@@ -1,6 +1,8 @@
 import React from 'react';
 
-const AUDIO_URL = `${process.env.FILE_STORAGE_URL}/music.mp3`;
+const AUDIO_URL = `${
+  process.env.FILE_STORAGE_URL || 'http://localhost:5000'
+}/music.mp3`;
 
 const cacheAudio = () => {
   if ('serviceWorker' in navigator) {
