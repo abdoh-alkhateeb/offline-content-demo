@@ -22,6 +22,8 @@ PWAs also have many of the benefits of platform-specific apps, including:
 
 ## What is a Service Worker?
 
+<img src="images/graph.png" style="margin-bottom:10px" />
+
 In simple terms, it's a script that the browser runs in the background, completely independent of web pages or the DOM, and provides built-in features. It also helps cache assets and other files, ensuring that users can access content even when offline or on a slow network.
 
 Some of these features include proxying network requests, push notifications, and background sync. Service workers ensure a rich offline experience for users.
