@@ -18,3 +18,5 @@
    ```sh
    npm run serve
    ```
+
+Note: If you encounter issues when starting the Webpack dev server, it may be due to special handling required for service workers. You may need to adjust your Webpack configuration or disable service workers during development.
